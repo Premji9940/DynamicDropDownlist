@@ -1,0 +1,140 @@
+2023-09-30 12:54:58,366 INFO com.nit.UserMiniProject1Application [restartedMain] Starting UserMiniProject1Application using Java 17.0.7 with PID 20764 (F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality\target\classes started by HP in F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality)
+2023-09-30 12:54:58,372 INFO com.nit.UserMiniProject1Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-09-30 12:54:58,641 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30 12:54:58,671 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2023-09-30 12:54:58,825 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 4545 (http)
+2023-09-30 12:54:58,827 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:54:58,828 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-09-30 12:54:58,828 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-30 12:54:58,882 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-09-30 12:54:58,884 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 506 ms
+2023-09-30 12:54:58,904 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-09-30 12:54:58,931 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61bf0f25
+2023-09-30 12:54:58,932 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-09-30 12:54:58,932 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql:///miniproj3'
+2023-09-30 12:54:58,975 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30 12:54:58,992 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-09-30 12:54:59,089 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30 12:54:59,090 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30 12:54:59,099 INFO com.nit.controller.UserController [restartedMain] creating UserController instance
+2023-09-30 12:54:59,101 INFO com.nit.service.UserServiceImpl [restartedMain] Creating UserServiceImpl instance
+2023-09-30 12:54:59,192 INFO com.nit.mail.MailUtils [restartedMain] creating MailUtils instance
+2023-09-30 12:54:59,308 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30 12:54:59,462 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-09-30 12:54:59,476 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:54:59,493 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 4545 (http) with context path ''
+2023-09-30 12:54:59,500 INFO com.nit.UserMiniProject1Application [restartedMain] Started UserMiniProject1Application in 1.196 seconds (process running for 200.255)
+2023-09-30 12:54:59,502 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-09-30 12:55:37,996 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30 12:55:38,023 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-19] Pausing ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:38,023 INFO org.apache.catalina.core.StandardService [Thread-19] Stopping service [Tomcat]
+2023-09-30 12:55:38,029 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-19] Stopping ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:38,032 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-19] Destroying ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:38,034 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30 12:55:38,035 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown initiated...
+2023-09-30 12:55:38,045 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown completed.
+2023-09-30 12:55:38,181 INFO com.nit.UserMiniProject1Application [restartedMain] Starting UserMiniProject1Application using Java 17.0.7 with PID 20764 (F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality\target\classes started by HP in F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality)
+2023-09-30 12:55:38,181 INFO com.nit.UserMiniProject1Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-09-30 12:55:38,427 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30 12:55:38,460 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2023-09-30 12:55:38,616 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 4545 (http)
+2023-09-30 12:55:38,616 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:38,617 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-09-30 12:55:38,617 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-30 12:55:38,690 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-09-30 12:55:38,691 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 505 ms
+2023-09-30 12:55:38,708 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2023-09-30 12:55:38,735 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b59b729
+2023-09-30 12:55:38,736 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2023-09-30 12:55:38,736 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql:///miniproj3'
+2023-09-30 12:55:38,777 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30 12:55:38,788 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-09-30 12:55:38,878 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30 12:55:38,879 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30 12:55:38,889 INFO com.nit.controller.UserController [restartedMain] creating UserController instance
+2023-09-30 12:55:38,891 INFO com.nit.service.UserServiceImpl [restartedMain] Creating UserServiceImpl instance
+2023-09-30 12:55:38,975 INFO com.nit.mail.MailUtils [restartedMain] creating MailUtils instance
+2023-09-30 12:55:39,098 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30 12:55:39,255 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-09-30 12:55:39,279 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:39,287 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 4545 (http) with context path ''
+2023-09-30 12:55:39,292 INFO com.nit.UserMiniProject1Application [restartedMain] Started UserMiniProject1Application in 1.162 seconds (process running for 240.047)
+2023-09-30 12:55:39,294 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-09-30 12:55:49,913 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30 12:55:49,939 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-23] Pausing ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:49,939 INFO org.apache.catalina.core.StandardService [Thread-23] Stopping service [Tomcat]
+2023-09-30 12:55:49,946 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-23] Stopping ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:49,949 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-23] Destroying ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:49,951 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-23] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30 12:55:49,952 INFO com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown initiated...
+2023-09-30 12:55:49,961 INFO com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown completed.
+2023-09-30 12:55:50,129 INFO com.nit.UserMiniProject1Application [restartedMain] Starting UserMiniProject1Application using Java 17.0.7 with PID 20764 (F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality\target\classes started by HP in F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality)
+2023-09-30 12:55:50,129 INFO com.nit.UserMiniProject1Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-09-30 12:55:50,434 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30 12:55:50,464 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2023-09-30 12:55:50,626 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 4545 (http)
+2023-09-30 12:55:50,627 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:50,628 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-09-30 12:55:50,628 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-30 12:55:50,720 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-09-30 12:55:50,721 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 586 ms
+2023-09-30 12:55:50,739 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2023-09-30 12:55:50,768 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@588fa689
+2023-09-30 12:55:50,768 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2023-09-30 12:55:50,769 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql:///miniproj3'
+2023-09-30 12:55:50,809 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30 12:55:50,824 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-09-30 12:55:50,951 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30 12:55:50,952 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30 12:55:50,961 INFO com.nit.controller.UserController [restartedMain] creating UserController instance
+2023-09-30 12:55:50,963 INFO com.nit.service.UserServiceImpl [restartedMain] Creating UserServiceImpl instance
+2023-09-30 12:55:51,056 INFO com.nit.mail.MailUtils [restartedMain] creating MailUtils instance
+2023-09-30 12:55:51,182 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30 12:55:51,345 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-09-30 12:55:51,369 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:55:51,377 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 4545 (http) with context path ''
+2023-09-30 12:55:51,383 INFO com.nit.UserMiniProject1Application [restartedMain] Started UserMiniProject1Application in 1.325 seconds (process running for 252.137)
+2023-09-30 12:55:51,384 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-09-30 12:56:12,300 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30 12:56:12,328 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-27] Pausing ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:56:12,328 INFO org.apache.catalina.core.StandardService [Thread-27] Stopping service [Tomcat]
+2023-09-30 12:56:12,335 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-27] Stopping ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:56:12,337 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-27] Destroying ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:56:12,339 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-27] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30 12:56:12,341 INFO com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown initiated...
+2023-09-30 12:56:12,351 INFO com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown completed.
+2023-09-30 12:56:12,492 INFO com.nit.UserMiniProject1Application [restartedMain] Starting UserMiniProject1Application using Java 17.0.7 with PID 20764 (F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality\target\classes started by HP in F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality)
+2023-09-30 12:56:12,492 INFO com.nit.UserMiniProject1Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-09-30 12:56:12,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-30 12:56:12,760 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2023-09-30 12:56:12,912 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 4545 (http)
+2023-09-30 12:56:12,912 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:56:12,913 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-09-30 12:56:12,913 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-30 12:56:12,969 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-09-30 12:56:12,969 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 472 ms
+2023-09-30 12:56:12,988 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2023-09-30 12:56:13,013 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54840ad3
+2023-09-30 12:56:13,014 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2023-09-30 12:56:13,014 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql:///miniproj3'
+2023-09-30 12:56:13,056 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-30 12:56:13,067 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-09-30 12:56:13,169 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-30 12:56:13,170 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30 12:56:13,179 INFO com.nit.controller.UserController [restartedMain] creating UserController instance
+2023-09-30 12:56:13,181 INFO com.nit.service.UserServiceImpl [restartedMain] Creating UserServiceImpl instance
+2023-09-30 12:56:13,278 INFO com.nit.mail.MailUtils [restartedMain] creating MailUtils instance
+2023-09-30 12:56:13,393 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-30 12:56:13,554 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-09-30 12:56:13,570 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:56:13,578 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 4545 (http) with context path ''
+2023-09-30 12:56:13,586 INFO com.nit.UserMiniProject1Application [restartedMain] Started UserMiniProject1Application in 1.142 seconds (process running for 274.34)
+2023-09-30 12:56:13,588 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-09-30 12:56:45,897 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-30 12:56:45,929 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-31] Pausing ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:56:45,929 INFO org.apache.catalina.core.StandardService [Thread-31] Stopping service [Tomcat]
+2023-09-30 12:56:45,935 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-31] Stopping ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:56:45,938 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-31] Destroying ProtocolHandler ["http-nio-4545"]
+2023-09-30 12:56:45,939 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-31] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-30 12:56:45,940 INFO com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown initiated...
+2023-09-30 12:56:45,949 INFO com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown completed.

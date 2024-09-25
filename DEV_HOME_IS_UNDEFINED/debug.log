@@ -1,0 +1,22 @@
+2024-09-25 21:21:50 - Could not detect default configuration classes for test class [com.nit.UserMiniProject1ApplicationTests]: UserMiniProject1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-25 21:21:52 - Found @SpringBootConfiguration com.nit.UserMiniProject1Application for test class com.nit.UserMiniProject1ApplicationTests
+2024-09-25 21:21:55 - Starting UserMiniProject1ApplicationTests using Java 17.0.9 with PID 14960 (started by HP in F:\JRTP-24\UserMiniProject\MiniProject3_DropDowns_LoginFunctionality)
+2024-09-25 21:21:55 - No active profile set, falling back to 1 default profile: "default"
+2024-09-25 21:22:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-25 21:22:05 - Finished Spring Data repository scanning in 1507 ms. Found 4 JPA repository interfaces.
+2024-09-25 21:22:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-25 21:22:09 - HHH000412: Hibernate ORM core version 6.1.7.Final
+2024-09-25 21:22:12 - HikariPool-1 - Starting...
+2024-09-25 21:22:17 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b98225c
+2024-09-25 21:22:17 - HikariPool-1 - Start completed.
+2024-09-25 21:22:18 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-09-25 21:22:22 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-25 21:22:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-25 21:22:23 - creating UserController instance
+2024-09-25 21:22:23 - Creating UserServiceImpl instance
+2024-09-25 21:22:26 - creating MailUtils instance
+2024-09-25 21:22:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-25 21:22:30 - Started UserMiniProject1ApplicationTests in 36.988 seconds (process running for 46.866)
+2024-09-25 21:22:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-25 21:22:32 - HikariPool-1 - Shutdown initiated...
+2024-09-25 21:22:32 - HikariPool-1 - Shutdown completed.
